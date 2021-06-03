@@ -17,7 +17,7 @@
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
 
-    --fss-h1: 3rem;
+    --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
@@ -25,7 +25,7 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5;
+        --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.25;
@@ -49,6 +49,8 @@ img{
     max-width: 100%
 }
 
+strong {font-weight: var(--fw-bold)}
+
 /* Typography */
 
 h1,
@@ -61,3 +63,28 @@ h3 {
 h1{ font-size: var(--fs-h1);}
 h2{ font-size: var(--fs-h2);}
 h3{ font-size: var(--fs-h3);}
+
+.section__title{
+    font-size: var(--fs-h1);
+    margin-bottom: .25rem;
+}
+
+.section__title--intro{
+    font-weight: var(--few-reg);
+}
+
+.section__title--intro strong{
+    display: block;
+}
+
+.section__subtitle{
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about{
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+
+}
