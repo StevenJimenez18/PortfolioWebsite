@@ -49,7 +49,6 @@ body {
     font-family: var(--ff--primary);
     font-size: var(--fs-body);
     line-height: 1.6;
-
 }
 
 section{
@@ -440,7 +439,7 @@ header{
 }
 
 .footer__link {
-    font-weight: var(var(--fw-bold));
+    font-weight:var(--fw-bold);
 }
 
 .footer__link:hover,
@@ -466,4 +465,30 @@ header{
 
 .social-list__link {
     padding: .5em;
+}
+
+/* Individual portfolio items */
+.portfolio-itme-individual{
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-itme-individual p
+{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.portfolio-itme-individual .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    text-align: center;
 }
