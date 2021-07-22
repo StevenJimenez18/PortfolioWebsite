@@ -468,13 +468,13 @@ header{
 }
 
 /* Individual portfolio items */
-.portfolio-itme-individual{
+.portfolio-item-individual{
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.portfolio-itme-individual p
+.portfolio-item-individual p
 {
     max-width: 600px;
     margin-left: auto;
@@ -482,7 +482,7 @@ header{
     text-align: center;
 }
 
-.portfolio-itme-individual .btn{
+.portfolio-item-individual .btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -490,5 +490,12 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 20em;
+    text-align: center;
+}
+
+.portimage{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
