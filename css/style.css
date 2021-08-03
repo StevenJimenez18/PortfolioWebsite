@@ -493,8 +493,7 @@ header{
     text-align: center;
 }
 
-.portimage{
-    max-width: 600px;
+.port_image{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
